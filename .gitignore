@@ -1,0 +1,20 @@
+# Credenciales: NUNCA se suben al repositorio
+.env
+ 
+# Datos generados por los scripts (se reconstruyen corriendo la extracción)
+data/
+*.db
+*.sqlite
+ 
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+ 
+# Sistema operativo / editores
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
