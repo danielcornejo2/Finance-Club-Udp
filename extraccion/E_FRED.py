@@ -20,7 +20,8 @@ SERIES = {
     "ipc_eeuu": "CPIAUCSL",                       # inflación externa
     "produccion_industrial_eeuu": "INDPRO",       # ciclo de la demanda externa 
     "petroleo_wti": "DCOILWTICO",                 # Precio diario spot del crudo WTI (Europeo)
-    "petroleo_brent": "DCOILBRENTE",              # Precio diario spot del crudo Brent (Estadounidense)
+    "petroleo_brent_mensual": "POILBREUSDM",      # Precio global del Brent (Mensual)
+
 }
 
 
