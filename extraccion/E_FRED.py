@@ -7,7 +7,7 @@ import requests
 from dotenv import load_dotenv
 
 URL_API = "https://api.stlouisfed.org/fred/series/observations"
-FECHA_INICIO = "2000-01-01"                       # mismo inicio que las series del Banco Central
+FECHA_INICIO = "2010-01-01"                       # mismo inicio que las series del Banco Central
 TIEMPO_ESPERA = 60                                # segundos máximos por consulta
 RAIZ = Path(__file__).resolve().parent.parent     # carpeta raíz del proyecto
 CARPETA_SALIDA = RAIZ / "data" / "raw" / "fred"

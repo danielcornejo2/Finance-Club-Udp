@@ -7,7 +7,7 @@ import requests
 from dotenv import load_dotenv
 
 URL_API = "https://si3.bcentral.cl/SieteRestWS/SieteRestWS.ashx"
-FECHA_INICIO = "2000-01-01"                       # al menos 10 años de historia, según la pauta
+FECHA_INICIO = "2010-01-01"                       # al menos 10 años de historia, según la pauta
 TIEMPO_ESPERA = 60                                # segundos máximos por consulta
 RAIZ = Path(__file__).resolve().parent.parent     # carpeta raíz del proyecto
 CARPETA_SALIDA = RAIZ / "data" / "raw" / "bcch"
@@ -28,7 +28,6 @@ SERIES = {
     "tpm_35m": "F089.TPM.TAS.35.M",                   # expectativa TPM a 35 meses
     "inflacion_11m": "F089.IPC.V12.14.M",             # expectativa inflación a 11 meses
     "inflacion_23m": "F089.IPC.V12.15.M",             # expectativa inflación a 23 meses
-    "inflacion_35m": "F089.IPC.V12.16.M",             # expectativa inflación a 35 meses
 }
 
 
